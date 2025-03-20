@@ -1,8 +1,17 @@
+import { Carousel } from '../../components/Carousel/Carousel.jsx'
+import { slides } from '../../data/carouselData.json'
+import './portfolio.css'
+
 export default function Portfolio(){
     return (
         <>
+
+<div className='portfolio'>
 <h1>Portfolio</h1>
-<div>
+< Carousel data={slides}/>
+</div>
+
+{/* <div>
 Project 1 - Snake Game - ReadMe - 1 week
 Solo project - Built a snake game using Javascript, HTML, CSS. I cemented my Javascript fundamental skills. 
 
@@ -25,7 +34,7 @@ Project 4 Biscuitology API - ReadMe 1 week
 Solo project - Built an app to rate biscuits Used Javascript, Express, React, MongoDb and Mongoose. You can add biscuits, give them a rating based on a number of factors, and view metrics about those biscuits. with full CRUD functionality.
 
 
-</div>
+</div> */}
 </>
     )
 }

@@ -5,7 +5,7 @@ import ContactForm from './components/ContactForm/ContactForm.jsx'
 // import DevCard from './components/DevCard'
 import Portfolio from './components/Portfolio/Portfolio.jsx'
 // import SkillsCard from './components/SkillsCard'
-
+import './App.css'
 function App() {
 
 

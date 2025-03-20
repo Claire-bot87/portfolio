@@ -56,19 +56,26 @@ const handleChange = (e) => {
 
 
         <>
-        <section className = 'container'>
-<h1>ContactForm</h1>
+        <section className = 'contact-container'>
 
-<form onSubmit = {handleSubmit} >
+
+<form onSubmit = {handleSubmit} className='contact-left'>
+    <div className='contact-left-title'>
+        <h2>get in touch</h2>
+        <hr></hr>
+    </div>
+
 {/* <input type="hidden" name="access_key" value="e846d832-9362-4d0c-a514-1fd1f52393f1"></input> */}
 
 <div className='form-control'>
 <label htmlFor='name'>name</label>
-<input className='input'
+<input 
+// className='input'
 type='text'
 name='name'
 id ='name'
 placeholder='enter your name'
+className='contact-inputs'
 required
 onChange={handleChange}
 />
@@ -77,11 +84,13 @@ onChange={handleChange}
 
 <div className='form-control'>
 <label htmlFor='email'>email</label>
-<input className='input'
+<input 
+// className='input'
 type='text'
 name='email'
 id ='email'
 placeholder='enter your email'
+className='contact-inputs'
 required
 onChange={handleChange}
 />
@@ -90,11 +99,13 @@ onChange={handleChange}
 
 <div className='form-control'>
 <label htmlFor='message'>message</label>
-<textarea className='input'
+<textarea 
+// className='input'
 type='text'
 name='message'
 id ='message'
 placeholder='enter your message'
+className='contact-inputs'
 required
 onChange={handleChange}
 />
@@ -103,6 +114,9 @@ onChange={handleChange}
 <button type='submit'> Submit </button>
 
 </form>
+<div className='contact-right'>
+ 
+</div>
 <span>{result}</span>
 </section>
 </>

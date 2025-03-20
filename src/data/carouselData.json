@@ -1,0 +1,34 @@
+{
+
+    "slides": [
+{
+    "src":"https://res.cloudinary.com/dpv0j8frj/image/upload/v1742468778/biscuits_hghnes.png",
+    "alt":"Image 1 for carousel",
+    "title":"Project 4 Biscuitology API ",
+    "text":"Solo project - Built an app to rate biscuits Used Javascript, Express, React, MongoDb and Mongoose. You can add biscuits, give them a rating based on a number of factors, and view metrics about those biscuits. with full CRUD functionality."
+
+},
+
+{
+    "src":"https://res.cloudinary.com/dpv0j8frj/image/upload/v1742468777/popcorn_ozaxhn.png",
+    "alt":"Image 2 for carousel",
+     "title":"Project 3 StickyPopcorn API",
+    "text":"Group project -Built an app to review films. Used Javascript, Express, React, MongoDb and Mongoose. Built a site where you can review films, add them to favourites and give them ratings. You could also add a film to your watchlist. with full CRUD functionality."
+},
+
+{
+    "src":"https://res.cloudinary.com/dpv0j8frj/image/upload/v1742468777/relaxation_utigst.png",
+    "alt":"Image 3 for carousel",
+     "title":"Project 2 Relaxation API",
+    "text":"Solo project -Built an app to give suggestions for relaxation. Used Javascript, Express, EJS, MongoDb and Mongoose. Built a database of relaxation suggestions with full CRUD functionality."
+},
+
+{
+    "src":"https://res.cloudinary.com/dpv0j8frj/image/upload/v1742468777/snake_zc9cgy.png",
+    "alt":"Image 4 for carousel",
+     "title":"Project 1 - Snake Game",
+    "text":"Solo project - Built a snake game using Javascript, HTML, CSS. I cemented my Javascript fundamental skills."
+
+}
+]
+}
