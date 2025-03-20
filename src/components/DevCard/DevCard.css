@@ -1,0 +1,15 @@
+.dev-card-div{
+
+    text-align: center;
+
+    padding: 40px;
+    border-radius: 12px;
+ 
+    max-width: 400px;
+    width: 90%;
+    color:white;
+}
+/* 
+.progress-bar{
+    color: aliceblue;
+} */

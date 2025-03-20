@@ -7,25 +7,27 @@ import './BioContainer.css'
 export default function BioContainer(){
     return (
         <> 
-<h1>BioContainer</h1>
-{/* < AboutMeCard />
-< DevCard />
-< SkillsCard /> */}
+
+
     <div className="profile-container">
-      <div className="profile-card">
-        <img 
-          src="https://via.placeholder.com/120" 
-          alt="Profile" 
+    <div className="profile-card">
+    <h2 className="profile-name">Claire Tosse</h2>
+        <div
           className="profile-image"
         />
-        <h2 className="profile-name">Karina Savoie</h2>
-        <p className="profile-bio">Creative Designer & Developer</p>
         
+  
+        
+     
+      </div>
+      <div className='components-container'>
+      < AboutMeCard />
+< DevCard />
+< SkillsCard />
+</div>
         <div className="profile-links">
           <a href="#">LinkedIn</a>
-          <a href="#">Twitter</a>
-          <a href="#">Portfolio</a>
-        </div>
+          <a href="#">GitHub</a>
       </div>
     </div>
 

@@ -1,40 +1,53 @@
-export default function SkillsCard(){
+import './SkillsCard.css'
+
+export default function SkillsCard() {
+
+    const data = [
+
+        'Front end',
+        'HTML',
+        'CSS',
+        'Javascript',
+        'React',
+
+        'Back end',
+        'Node.js',
+        'MongoDB',
+        'Express',
+        'Packages',
+        'Npm',
+        'Pipenv',
+
+        'Version controls',
+        'GitHub',
+
+        'Storage',
+        'Heroku',
+        'Languages',
+        'English (native)',
+        'French (fluent)',
+        'Spanish (competent)',
+
+        'Soft',
+        'Organisation',
+        'Communication',
+        'Collaboration'
+    ]
+
     return (
         <>
-<h1>SkillsCard</h1>
-<div>
-<p>SKILLS
 
-Front end
-HTML
-CSS
-Javascript
-React
+            <div className='skills-card-div'>
+                <h1>Skills</h1>
+                <br></br>
+                <ul className='skills-wrap'>
+                    {data.map((skill, idx) => (
+                        <li key={idx}><div className='skill-div'>{skill}</div></li>
 
-Back end
-Node.js
-MongoDB
-Express
-Packages
-Npm
-Pipenv
 
-Version controls
-GitHub
-
-Storage
-Heroku
-Languages
-English (native)
-French (fluent)
-Spanish (competent)
-
-Soft
-Organisation 
-Communication
-Collaboration
-</p>
-</div>
-</>
+                    ))}
+                </ul>
+            </div>
+        </>
     )
 }

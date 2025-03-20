@@ -1,0 +1,48 @@
+.skills-card-div{
+    text-align: center;
+
+    padding: 40px;
+    border-radius: 12px;
+
+    max-width: 400px;
+    width: 90%;
+    display: flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    color:white;
+
+}
+
+li{
+    background-color: transparent;
+    color: rgb(246, 242, 242);
+    margin: 0px !important;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+    display:flex;
+    border-radius: 12px;
+    border-color: white;
+    /* flex-direction:row;
+    flex-wrap:wrap; */
+}
+
+
+.skills-wrap{
+    font-weight: 600;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    border-image: initial;
+    padding: 10px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+
+}
+
+.skill-div{
+    border-radius: 5px;
+    border: 2px solid white;
+    padding:2px;
+    margin:2px;
+}

@@ -18,7 +18,7 @@ function App() {
       <Link to="/bio">bio</Link>
       <Link to="/contact">contact</Link>
     </nav>
-     <h1>Hello world!</h1>
+
 
      <Routes>
 <Route path="/" />
