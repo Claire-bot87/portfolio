@@ -5,10 +5,7 @@
 
 }
 
-/* body{
-    font-family:'Outfit';
-    background: linear-gradient(#ca25ac,#7336ed)
-} */
+
 
 
 .contact-container{
@@ -46,6 +43,9 @@ margin-bottom:20px;
 background-image:url(./assets/contact-image.png); 
 height: 400px;
 width:400px;
+background-position: center;
+background-repeat: no-repeat;
+background-size:cover;
 
 
 }
@@ -59,6 +59,7 @@ padding-left:25px;
 font-weight:500;
 color:#9773e0;
 border-radius:50px;
+margin:5px;
 }
 
 .contact-left textarea{
@@ -74,6 +75,7 @@ border-radius:50px;
 
 .contact-inputs::placeholder{
     color:#7336ed;
+    
 }
 
 .contact-left button{
@@ -87,5 +89,21 @@ border:none;
 border-radius: 50px;
 background: linear-gradient(#ef27c7,#9773e0);
 cursor:pointer;
+
+}
+
+
+
+.form-control label{
+    color: #9773e0!important;
+    margin-top:12px;
+    font-weight:bold !important;
+   
+}
+
+.form-control {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
 
 }

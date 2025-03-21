@@ -28,8 +28,8 @@ export default function BioContainer({ devs = devData}){
 < SkillsCard />
 </div>
         <div className="profile-links">
-          <a href="#">LinkedIn</a>
-          <a href="#">GitHub</a>
+          <a href="https://www.linkedin.com/in/cb1987/">LinkedIn</a>
+          <a href="https://github.com/Claire-bot87">GitHub</a>
       </div>
     </div>
 

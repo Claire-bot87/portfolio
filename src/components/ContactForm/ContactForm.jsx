@@ -68,7 +68,7 @@ const handleChange = (e) => {
 {/* <input type="hidden" name="access_key" value="e846d832-9362-4d0c-a514-1fd1f52393f1"></input> */}
 
 <div className='form-control'>
-<label htmlFor='name'>name</label>
+<label htmlFor='name' className='label'>name</label>
 <input 
 // className='input'
 type='text'
@@ -83,7 +83,7 @@ onChange={handleChange}
 </div>
 
 <div className='form-control'>
-<label htmlFor='email'>email</label>
+<label htmlFor='email' className='label'>email</label>
 <input 
 // className='input'
 type='text'
@@ -98,7 +98,7 @@ onChange={handleChange}
 </div>
 
 <div className='form-control'>
-<label htmlFor='message'>message</label>
+<label htmlFor='message' className='label'>message</label>
 <textarea 
 // className='input'
 type='text'

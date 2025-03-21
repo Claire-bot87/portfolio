@@ -20,9 +20,9 @@ function App() {
 
   return (
     <>
-    <div className="app-div">
+   
     <NavMenu />
-  
+    <div className="app-div">
 
      <Routes>
 <Route path="/" element = {<HomePageComponent />}/>
