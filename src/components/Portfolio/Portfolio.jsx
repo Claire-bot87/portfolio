@@ -7,7 +7,7 @@ export default function Portfolio(){
         <>
 
 <div className='portfolio'>
-<h1>Portfolio</h1>
+
 < Carousel data={slides}/>
 </div>
 

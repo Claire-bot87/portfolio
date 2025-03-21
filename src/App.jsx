@@ -1,32 +1,38 @@
-import {Routes, Route, Link } from 'react-router'
+import {Routes, Route, Link, useLocation } from 'react-router'
 // import AboutMeCard from './components/AboutMeCard'
 import BioContainer from './components/BioContainer/BioContainer.jsx'
 import ContactForm from './components/ContactForm/ContactForm.jsx'
 // import DevCard from './components/DevCard'
 import Portfolio from './components/Portfolio/Portfolio.jsx'
-// import SkillsCard from './components/SkillsCard'
+import NavMenu from './components/NavMenu/NavMenu.jsx'
+import HomePageComponent from './components/HomePageComponent/HomePageComponent.jsx'
+import { useEffect } from "react"
+
+
 import './App.css'
 function App() {
+  const location = useLocation();
+
+  useEffect(() => {
+    document.body.className = location.pathname === "/" ? "home-bg" : "other-bg";
+  }, [location]);
 
 
   return (
     <>
-    <nav> 
-
-      <Link to="/">home</Link>
-      <Link to="/portfolio">portfolio</Link>
-      <Link to="/bio">bio</Link>
-      <Link to="/contact">contact</Link>
-    </nav>
-
+    <div className="app-div">
+    <NavMenu />
+  
 
      <Routes>
-<Route path="/" />
+<Route path="/" element = {<HomePageComponent />}/>
 <Route path="/portfolio" element = {<Portfolio />} />
 <Route path="/bio" element = {<BioContainer />} />
 <Route path="/contact" element = {<ContactForm />} />
 
      </Routes>
+     </ div>
+   
     </>
   )
 }

@@ -1,0 +1,22 @@
+[
+{
+    "name":"TypeScript",
+    "progress":"60",
+    "variant":"warning"
+   
+},
+
+{
+    "name":"Next JS",
+    "progress":"60",
+    "variant":"info"
+   
+},
+
+{
+    "name":"Sass",
+    "progress":"60",
+    "variant":"warning"
+   
+}
+]

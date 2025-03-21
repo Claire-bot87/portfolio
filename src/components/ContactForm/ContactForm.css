@@ -5,10 +5,10 @@
 
 }
 
-body{
+/* body{
     font-family:'Outfit';
     background: linear-gradient(#ca25ac,#7336ed)
-}
+} */
 
 
 .contact-container{
@@ -43,7 +43,7 @@ margin-bottom:20px;
 }
 
 .contact-right{
-background-image:url(./assets/contact-image.png); ;
+background-image:url(./assets/contact-image.png); 
 height: 400px;
 width:400px;
 

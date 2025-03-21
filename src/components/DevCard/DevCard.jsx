@@ -1,30 +1,37 @@
 import './DevCard.css'
 import ProgressBar from 'react-bootstrap/ProgressBar';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import devData from '../../data/DevData.json'
 
-export default function DevCard(){
+export const DevCard = ({ devs = devData }) => {
+    console.log("devs:", devs);
+    console.log("Type of devs:", typeof devs);
     return (
+        
         <div className='dev-card-div'>
-            
-<h1>Personal Development</h1>
-<br></br>
+            <h1>Personal Development</h1>
+            <br></br>
+    {devs.map((dev, idx) => (        
+        <div key={idx}> 
+
+
+
 <ProgressBar 
+key={idx}
 animated 
-variant="info" 
-now={45}
+variant={dev.variant} 
+label={dev.name}
+now={dev.progress}
 style={{ backgroundColor: 'transparent',border: '1px solid white' }}
 />
-<ProgressBar 
-animated 
-variant="warning" 
-now={45}
-style={{ backgroundColor: 'transparent',border: '1px solid white' }}
- />
-<p>
-TypeScript
-Next js
-Sass
-</p>
+</div>
+) )}
+
+
 </div>
     )
 }
+
+
+
+export default DevCard
