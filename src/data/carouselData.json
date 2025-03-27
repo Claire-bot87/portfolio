@@ -5,7 +5,9 @@
     "src":"https://res.cloudinary.com/dpv0j8frj/image/upload/v1742573972/biscuits_zmmqhj.png",
     "alt":"Image 1 for carousel",
     "title":"Project 4 Biscuitology API ",
-    "text":"Solo project - Built an app to rate biscuits Used Javascript, Express, React, MongoDb and Mongoose. You can add biscuits, give them a rating based on a number of factors, and view metrics about those biscuits. with full CRUD functionality."
+    "text":"Solo project - Built an app to rate biscuits Used Javascript, Express, React, MongoDb and Mongoose. You can add biscuits, give them a rating based on a number of factors, and view metrics about those biscuits. with full CRUD functionality.",
+    "project_link":"https://biscuitology.netlify.app/",
+    "readme_link":"https://github.com/Claire-bot87/biscuitology-client/blob/main/README.md"
 
 },
 
@@ -13,22 +15,28 @@
     "src":"https://res.cloudinary.com/dpv0j8frj/image/upload/v1742573970/popcorn_hjbvk3.png",
     "alt":"Image 2 for carousel",
      "title":"Project 3 StickyPopcorn API",
-    "text":"Group project -Built an app to review films. Used Javascript, Express, React, MongoDb and Mongoose. Built a site where you can review films, add them to favourites and give them ratings. You could also add a film to your watchlist. with full CRUD functionality."
+    "text":"Group project -Built an app to review films. Used Javascript, Express, React, MongoDb and Mongoose. Built a site where you can review films, add them to favourites and give them ratings. You could also add a film to your watchlist. with full CRUD functionality.",
+     "project_link":"https://stickypopcorn1.netlify.app/",
+    "readme_link":"https://github.com/Claire-bot87/sticky-popcorn-client/blob/main/README.md"
 },
 
 {
     "src":"https://res.cloudinary.com/dpv0j8frj/image/upload/v1742573970/relaxation_anm2hc.png",
     "alt":"Image 3 for carousel",
      "title":"Project 2 Relaxation API",
-    "text":"Solo project -Built an app to give suggestions for relaxation. Used Javascript, Express, EJS, MongoDb and Mongoose. Built a database of relaxation suggestions with full CRUD functionality."
+    "text":"Solo project -Built an app to give suggestions for relaxation. Used Javascript, Express, EJS, MongoDb and Mongoose. Built a database of relaxation suggestions with full CRUD functionality.",
+     "project_link":"https://relax-now.netlify.app/",
+    "readme_link":"https://github.com/Claire-bot87/my-relaxation-api/blob/main/README.md"
 },
 
 {
     "src":"https://res.cloudinary.com/dpv0j8frj/image/upload/v1742573970/snake_u3lc17.png",
     "alt":"Image 4 for carousel",
      "title":"Project 1 - Snake Game",
-    "text":"Solo project - Built a snake game using Javascript, HTML, CSS. I cemented my Javascript fundamental skills."
-
+    "text":"Solo project - Built a snake game using Javascript, HTML, CSS. I cemented my Javascript fundamental skills.",
+     "project_link":"https://claire-bot87.github.io/project1-game-snake/",
+    "readme_link":"https://github.com/Claire-bot87/project1-game-snake/blob/main/README.md"
+    
 }
 ]
 }
