@@ -35,7 +35,7 @@ export default function BioContainer({ devs = devData}){
 
 </div>
         <div className="profile-links">
-          <a href="https://www.linkedin.com/in/cb1987/" className='linkedin-ref'>
+          <a href="https://www.linkedin.com/in/clairetosse/" className='linkedin-ref'>
           <div className='linkedin'></div>
           </a>
           <a href="https://github.com/Claire-bot87"className='github-ref'>
