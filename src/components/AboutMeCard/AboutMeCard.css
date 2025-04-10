@@ -5,5 +5,8 @@
     max-width: 400px;
     width: 90%;
     color:white;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
 
 }

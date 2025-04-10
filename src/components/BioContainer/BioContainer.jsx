@@ -14,11 +14,6 @@ export default function BioContainer({ devs = devData}){
 
     <div className="profile-container">
     <div className="profile-card">
-    
-      
-        
-  
-        
      
       </div>
       <div className='components-container'>

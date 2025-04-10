@@ -6,8 +6,6 @@ import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from 'react-icons/bs'
 export default function BooksCard (){
     const [slide, setSlide] = useState(0)
 
-
-
     const books =
 
        [
@@ -45,12 +43,15 @@ export default function BooksCard (){
       
         return () => clearInterval(interval) // cleanup on unmount
       }, [books.length])
-      
+
     return (
+        <div className='container-div'>
+        
+        <h4>Current reads</h4>
         <div className='carousel'>
              < BsArrowLeftCircleFill className='arrow arrow-left' onClick={prevSlide} />
         <div className='books-div'>
-<p>This will include: books i am reading , ramit sethi, dr becki, favourite poems, excerpts</p>
+        {/* <h4>Current reads</h4> */}
 {books.map((book,idx) => (
 <div  
      key={idx}
@@ -67,5 +68,6 @@ export default function BooksCard (){
 </div> 
 < BsArrowRightCircleFill className='arrow arrow-right' onClick={nextSlide} />
 </div> 
+</div>
     )
 }
