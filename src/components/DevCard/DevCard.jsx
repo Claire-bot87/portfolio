@@ -15,8 +15,10 @@ export const DevCard = ({ devs = devData }) => {
         <div key={idx}> 
 
 
-
-<ProgressBar 
+<div className = 'progress-bar-div'>
+    <h5>{dev.name}</h5>
+<ProgressBar className= 'progress-bar'
+// className='my-progress'
 key={idx}
 animated 
 variant={dev.variant} 
@@ -24,6 +26,7 @@ label={dev.name}
 now={dev.progress}
 style={{ backgroundColor: 'transparent',border: '1px solid white' }}
 />
+</div>
 </div>
 ) )}
 

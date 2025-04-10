@@ -49,9 +49,14 @@
   
   .other-bg {
     background: linear-gradient(#8f008a,#000000);
+    background-size:cover;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
-  /* html, body {
+  html, body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -61,5 +66,5 @@
   * {
     box-sizing: border-box;
   }
-   */
+  
 

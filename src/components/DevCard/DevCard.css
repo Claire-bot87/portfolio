@@ -1,15 +1,47 @@
 .dev-card-div{
-
+    display:flex;
+    flex-direction:column;
+    align-items: stretch;
     text-align: center;
 
     padding: 40px;
     border-radius: 12px;
  
     max-width: 400px;
+    height: 100%;
     width: 90%;
-    color:white;
+    color:black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
 }
-/* 
+
 .progress-bar{
-    color: aliceblue;
+    color: black;
+}
+
+.progress-bar-div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display:flex;
+    flex-direction:row;
+}
+
+label{
+    color:black
+}
+
+/* .my-progress{
+    background-color: pink !important;
+    color: black;
+
 } */
+
+.my-progress .progress-bar-label {
+    color: #ff6347 !important; /* Change this to your desired color */
+}
+
+h5{
+    width: 50%;
+    text-align:left
+}

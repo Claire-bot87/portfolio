@@ -44,7 +44,7 @@ export const Carousel = ({ data }) => {
                     className='slide' />
                     </div>
                    
-                        </div> 
+                    </div> 
            ) )}
            
             < BsArrowRightCircleFill className='arrow arrow-right' onClick={nextSlide} />

@@ -1,113 +1,163 @@
-*{
-  padding : 0;
+* {
+  padding: 0;
   margin: 0;
   box-sizing: border-box;
 
 }
 
-body{
-  font-family:'Outfit';
-  background: linear-gradient(#ca25ac,#7336ed)
+body {
+  font-family: 'Outfit';
+  background: linear-gradient(#ca25ac, #7336ed)
 }
 
 
 /* Centering the profile card */
 .profile-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-   
-    flex-direction:column;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  flex-direction: column;
+}
+
+/* Card Styling */
+.profile-card {
+  text-align: center;
+
+  padding: 40px;
+  border-radius: 12px;
+
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* Profile Image */
+.profile-image {
+  width: 100%;
+  height: 50%;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  background-image: url(./assets/bio-image.PNG);
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
   
-  /* Card Styling */
-  .profile-card {
-    text-align: center;
-    
-    padding: 40px;
-    border-radius: 12px;
- 
-    width: 80%;
-    display:flex;
-    flex-direction:row;
-    justify-content:space-between;
-  }
-  
-  /* Profile Image */
-  .profile-image {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    object-fit: cover;
-  
-    transition: transform 0.3s ease;
-    background-image: url(./assets/bio-image.PNG);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  
-  .profile-image:hover {
-    transform: scale(1.05);
-  }
-  
-  /* Name & Bio */
-  .profile-name {
-    font-size: 50px;
-    font-weight: bold;
-    margin-top: 20px;
-    color: white;
-    font-family: "Montserrat", sans-serif;
+}
+
+.profile-image:hover {
+  transform: scale(1.05);
+}
+
+/* Name & Bio */
+.profile-name {
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal;
-  }
-  
-  .profile-bio {
-    font-size: 16px;
-    color: #666;
-    margin-top: 10px;
-    line-height: 1.6;
-  }
-  
-  /* Social Links */
-  .profile-links {
-    margin-top: 20px;
-    display:flex;
-    flex-direction: row;
-    justify-content:center;
-    text-align: center;
+}
 
-    padding: 40px;
-    border-radius: 12px;
+.profile-bio {
+  font-size: 16px;
+  color: #666;
+  margin-top: 10px;
+  line-height: 1.6;
+}
 
-    width: 80%;
-  }
+/* Social Links */
+.profile-links {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+  border-radius: 12px;
+  width: 80%;
+}
+
+.profile-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+
+
+}
+
+.profile-links a:hover {
+  color: #004a99;
+}
+
+
+.components-container {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+
+
+
+}
+
+
+.left-div {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+
+}
+
+.centre-div {
+  width: 33%;
+}
+
+.right-div {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   
-  .profile-links a {
-    text-decoration: none;
-    color: white;
-    font-weight: 500;
-    margin: 0 10px;
-    transition: color 0.3s ease;
+}
+
+.linkedin{
+  background-image: url(./assets/linkedin-logo.png);
+  background-size:contain;
+  background-position:center;
+  background-repeat: no-repeat;
+
+  height:50px;
+  width:50px;
+}
+
+.github{
+  
+  background-image: url(./assets/github-logo1.png);
+  background-size:contain;
+  background-position:center;
+  background-repeat: no-repeat;
  
+  height:50px;
+  width:50px;
+}
 
-  }
-  
-  .profile-links a:hover {
-    color: #004a99;
-  }
-  
+.linkedin-ref {
+  height:50px;
+  width:50px;
 
-  .components-container{
-display:flex;
-flex-direction:row;
-width: 100vw;
-height:100vh;
+}
 
+.github-ref{
+  height:50px;
+  width:50px;
+}
 
-
-  }
-
- 

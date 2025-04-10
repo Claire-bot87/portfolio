@@ -39,6 +39,7 @@ li{
     display: flex;
     flex-direction:row;
     flex-wrap:wrap;
+    border-radius: 2%;
 
 }
 
@@ -47,4 +48,10 @@ li{
     border: 2px solid white;
     padding:2px;
     margin:2px;
+}
+
+
+.image{
+    height:4vh;
+    width:3vw;
 }
