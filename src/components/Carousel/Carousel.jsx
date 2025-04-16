@@ -30,13 +30,20 @@ export const Carousel = ({ data }) => {
                  className={slide === idx ? 'div-wrapper' : 'div-wrapper div-hidden'}
                  >
                      <div className={slide === idx ? 'div-left' : 'div-left-hidden'}>
-                     <a href={item.project_link} target="_blank" rel="noopener noreferrer">
+                     <div className='carousel-title-text'>
                         <h1>{item.title}</h1>
+                    </div>
+                       
+                        <p>{item.text}</p>
+                        <div className='links-div'>
+                        <a href={item.project_link} target="_blank" rel="noopener noreferrer">
+                        <div className='deployed-site-link'></div>
                         </a>
                         <a href={item.readme_link} target="_blank" rel="noopener noreferrer">
-                        <p>{item.text}</p>
-                
-                        </a>
+                <div className='github-link'></div>
+                </a>
+                </div>
+                        
                         </div>
                 <div  className={slide === idx ? 'div-right' : 'div-right-hidden'}>
                     <img src={item.src}

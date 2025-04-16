@@ -1,17 +1,13 @@
 .skills-card-div{
-    text-align: center;
-
-    padding: 40px;
-    border-radius: 12px;
-
-    max-width: 40%;
-    width: 90%;
+    font-weight: 600;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    border-image: initial;
+    padding: 10px;
     display: flex;
     flex-direction:column;
-    flex-wrap:wrap;
-    color:white;
-    max-width: 100%;
-    height: 100%;
+    border-radius: 2%;
 
 }
 
@@ -24,17 +20,11 @@ li{
     display:flex;
     border-radius: 12px;
     border-color: white;
-    /* flex-direction:row;
-    flex-wrap:wrap; */
 }
 
 
 .skills-wrap{
     font-weight: 600;
-    border-width: 2px;
-    border-style: solid;
-    border-color: white;
-    border-image: initial;
     padding: 10px;
     display: flex;
     flex-direction:row;
@@ -54,4 +44,23 @@ li{
 .image{
     height:4vh;
     width:3vw;
+}
+
+.languages-div{
+    font-weight: 600;
+    padding: 10px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    border-radius: 2%;
+}
+
+.soft-div{
+    font-weight: 600;
+    padding: 10px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    border-radius: 2%;
+
 }

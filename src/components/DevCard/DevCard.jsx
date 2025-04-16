@@ -18,7 +18,6 @@ export const DevCard = ({ devs = devData }) => {
 <div className = 'progress-bar-div'>
     <h5>{dev.name}</h5>
 <ProgressBar className= 'progress-bar'
-// className='my-progress'
 key={idx}
 animated 
 variant={dev.variant} 

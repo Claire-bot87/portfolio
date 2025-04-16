@@ -14,26 +14,35 @@ export default function BioContainer({ devs = devData}){
 
     <div className="profile-container">
     <div className="profile-card">
-     
+      
+      
+      <div className = 'top-div'>
+        <h1>Software Developer</h1>
+      <div
+          className="profile-image"
+        />
       </div>
       <div className='components-container'>
         <div className='left-div'>
-        < DevCard data={ devs }/>
-        <BooksCard />
-        </div>
-        <div className='centre-div'>
         < AboutMeCard />
         </div>
+        <div className='centre-div'>
+        < DevCard data={ devs }/>
+        </div>
         <div className='right-div'>
-        <div
+        {/* <div
           className="profile-image"
-        />
+        /> */}
         < SkillsCard />
         </div>
- 
-
+        
+        </div>
+        <div className='bottom-div'>
+        <BooksCard />
+        </div>
 
 </div>
+
         <div className="profile-links">
           <a href="https://www.linkedin.com/in/clairetosse/" className='linkedin-ref'>
           <div className='linkedin'></div>

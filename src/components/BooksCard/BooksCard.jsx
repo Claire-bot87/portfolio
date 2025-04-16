@@ -39,19 +39,19 @@ export default function BooksCard (){
       useEffect(() => {
         const interval = setInterval(() => {
           setSlide(prev => (prev === books.length - 1 ? 0 : prev + 1))
-        }, 3000) // change slide every 3 seconds
+        }, 3000) 
       
-        return () => clearInterval(interval) // cleanup on unmount
+        return () => clearInterval(interval) 
       }, [books.length])
 
     return (
         <div className='container-div'>
-        
-        <h4>Current reads</h4>
-        <div className='carousel'>
+        <div className='current-reads-div'>
+        <h1>Current reads</h1>
+        </div>
+        <div className='book-carousel'>
              < BsArrowLeftCircleFill className='arrow arrow-left' onClick={prevSlide} />
         <div className='books-div'>
-        {/* <h4>Current reads</h4> */}
 {books.map((book,idx) => (
 <div  
      key={idx}

@@ -1,16 +1,18 @@
 .title{
     display:flex;
     flex-direction:row;
-    justify-content: space-around; /* Push elements apart */
-
-    width: 100%; /* Ensure it spans the full width */
-    max-width: 30vw; /* Prevent it from overflowing */
-    padding: 10px 20px; /* Add some space */
+    justify-content: space-around; 
+    width: 100%; 
+    max-width: 30vw;
+    padding: 10px 20px; 
     height:20%;
     max-height:20vh;
     align-items: center;
-    /* margin-top: 1%; */
+}
 
+.title-text{
+    width:100%;
+    max-width: 100%;
 }
 
 .logo{
@@ -25,8 +27,8 @@
 
 .title-link {
     text-decoration: none;
-    flex: 1; /* Allow it to take only the necessary space */
-    text-align: right; /* Ensure text moves to the right */
+    flex: 1; 
+    text-align: right; 
 }
 
 a:link {

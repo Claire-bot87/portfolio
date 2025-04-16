@@ -1,5 +1,4 @@
 import {useState} from 'react'
-// import { useNavigate} from 'react-router'
 import './ContactForm.css'
 
 export default function ContactForm(){
@@ -15,7 +14,6 @@ message:''
 const [errors, setErrors] = useState({})
 
 const [result, setResult] =useState('')
-// const navigate = useNavigate()
 
 const handleSubmit = async (e) => {
     e.preventDefault()
@@ -65,12 +63,11 @@ const handleChange = (e) => {
         <hr></hr>
     </div>
 
-{/* <input type="hidden" name="access_key" value="e846d832-9362-4d0c-a514-1fd1f52393f1"></input> */}
+
 
 <div className='form-control'>
 <label htmlFor='name' className='label'>name</label>
 <input 
-// className='input'
 type='text'
 name='name'
 id ='name'
@@ -85,7 +82,6 @@ onChange={handleChange}
 <div className='form-control'>
 <label htmlFor='email' className='label'>email</label>
 <input 
-// className='input'
 type='text'
 name='email'
 id ='email'
@@ -100,7 +96,6 @@ onChange={handleChange}
 <div className='form-control'>
 <label htmlFor='message' className='label'>message</label>
 <textarea 
-// className='input'
 type='text'
 name='message'
 id ='message'

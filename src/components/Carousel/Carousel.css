@@ -1,109 +1,135 @@
-  .carousel {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vh;
-    height: 80vh;
-    /* flex-direction: row; */
-  }
+.carousel {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 80vw;
+  height: 80vh;
+}
 
-  .slide {
-    border: none;
-    width: 100%;
-    height: 100%;
-  }
-
-  .slide-hidden {
-    display: none;
-  }
-
-  .arrow {
-    position: absolute;
-    filter: drop-shadow(0px 0px 5px #555);
-    width: 2rem;
-    height: 2rem;
-    color: white;
-  }
-
-  .arrow:hover {
-    cursor: pointer;
-  }
-
-  .arrow-left {
-    left: 1rem;
-  }
-
-  .arrow-right {
-    right: 1rem;
-  }
-
-  .indicators {
-    display: flex;
-    position: absolute;
-    bottom: 1rem;
-  }
-
-  .indicator {
-    background-color: white;
-    height: 0.5rem;
-    width: 0.5rem;
-    border-radius: 100%;
-    border: none;
-    outline: none;
-    box-shadow: 0px 0px 5px #555;
-    margin: 0 0.2rem;
-    cursor: pointer;
-  }
-
-  .indicator-inactive {
-    background-color: grey;
-  }
-
-  .div-wrapper {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    position: absolute;
-    pointer-events: auto !important;
-  }
+.slide {
+  border: none;
+  width: 100%;
+  height: 100%;
+}
 
 
-  .div-left {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    gap: 20px;
-    width: 300px;
-    /* position:absolute; */
-  }
-
-  .div-right {
-    display: flex;
-    height: 300px;
-    width: 300px;
-    /* position:absolute; */
-
-  }
-
-  .div-left-hidden {
-    display: none;
-  }
+.arrow {
+  position: absolute;
+  filter: drop-shadow(0px 0px 5px #555);
+  width: 2rem;
+  height: 2rem;
+  color: white;
+}
 
 
-  .div-right-hidden {
-    display: none;
+.arrow-left {
+  left: 1rem;
+}
 
-  }
+.arrow-right {
+  right: 1rem;
+}
 
-  .div-wrapper div-hidden {
-    display: none;
-  }
+.indicators {
+  display: flex;
+  position: absolute;
+  bottom: 1rem;
+}
 
-  a {
-    display: block;
-    position: relative;
-    z-index: 10;
+.indicator {
+  background-color: white;
+  height: 0.5rem;
+  width: 0.5rem;
+  border-radius: 100%;
+  border: none;
+  outline: none;
+  box-shadow: 0px 0px 5px #555;
+  margin: 0 0.2rem;
+  cursor: pointer;
+}
+
+.indicator-inactive {
+  background-color: grey;
+}
+
+.div-wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: absolute;
+  pointer-events: auto !important;
+}
+
+
+.div-left {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+  width: 300px;
+}
+
+.div-right {
+  display: flex;
+  height: 300px;
+  width: 300px;
+}
+
+.div-left-hidden {
+  display: none;
+}
+
+
+.div-right-hidden {
+  display: none;
+
+}
+
+.div-wrapper div-hidden {
+  display: none;
+}
+
+a {
+  display: block;
+  position: relative;
+  z-index: 10;
+}
+
+.github-link {
+height:2rem;
+width:2rem;
+background-image: url(./assets/github-logo1.png);
+background-size:contain;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.deployed-site-link {
+  height:2rem;
+  width:2rem;
+  background-image: url(./assets/world-icon.png);
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.links-div{
+  width: 90%;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.carousel-title-text{
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-break: normal;
+  
 }

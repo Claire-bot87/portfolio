@@ -1,8 +1,6 @@
 import {Routes, Route, Link, useLocation } from 'react-router'
-// import AboutMeCard from './components/AboutMeCard'
 import BioContainer from './components/BioContainer/BioContainer.jsx'
 import ContactForm from './components/ContactForm/ContactForm.jsx'
-// import DevCard from './components/DevCard'
 import Portfolio from './components/Portfolio/Portfolio.jsx'
 import NavMenu from './components/NavMenu/NavMenu.jsx'
 import HomePageComponent from './components/HomePageComponent/HomePageComponent.jsx'
