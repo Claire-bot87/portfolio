@@ -49,3 +49,12 @@ h5{
     width: 50%;
     text-align:left
 }
+
+@media (max-width:480px) {
+    .dev-card-div {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto; 
+}
+}

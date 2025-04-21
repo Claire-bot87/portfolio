@@ -7,7 +7,8 @@
 
 body {
   font-family: 'Outfit';
-  background: linear-gradient(#ca25ac, #7336ed)
+  background: linear-gradient(#ca25ac, #7336ed);
+  overflow-x: hidden;
 }
 
 
@@ -20,8 +21,7 @@ body {
    padding-top: 60px; 
   min-height: 100vh;
   height:auto;
-  /* width:100vw;
-  max-width:100vw; */
+
 
  
  } 
@@ -32,11 +32,8 @@ body {
   display:flex;
   justify-content: space-between;
   flex-direction: column;
-  /* padding: 40px; */
   border-radius: 12px;
   width: 80%;
-  /* display: flex;
-  flex-direction: row; */
   height:auto;
   min-height: 100vh;
 }
@@ -53,11 +50,9 @@ body {
   background-image: url(./assets/bio-image.PNG);
   background-size:contain;
   background-repeat: no-repeat;
-  background-position: center;
-  
-  
-  
+  background-position: center; 
 }
+
 .profile-image:hover {
   transform: scale(1.05);
 }
@@ -93,14 +88,12 @@ body {
   height:10%;
   max-height: 20%;
   width:100%;
-  /* padding: 20px; */
   box-sizing: border-box;
   display: flex;
   flex-direction:row;
   justify-content:space-between;
   align-items: center;
   flex-grow:1;
-  
   font-weight: 600;
   border-width: 2px;
   border-style: solid;
@@ -130,33 +123,22 @@ h1{
   border-style: solid;
   border-color: blueviolet;
   border-image: initial;
+  border-radius: 8px;
   padding: 10px;
   display: flex;
   flex-direction:column;
-  /* flex-wrap:wrap; */
-  border-radius: 8px;
   margin-top: 1rem;
 
 }
-/* 
-.components-container {
-  width: 100%;
-  box-sizing: border-box;
-  height:50%;
-  max-height: 50%;
-  display:flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-grow:3;
-} */
+
 
 .components-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 20px; 
-
 }
+
 
 
 
@@ -169,6 +151,50 @@ h1{
   margin: 0;
 
 }
+
+@media (max-width:480px) {
+
+  .components-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0 10px; 
+    box-sizing: border-box;
+    justify-content: center;
+  
+   
+  }
+  .left-div,
+  .centre-div,
+  .right-div {
+    width: 100%;
+    flex-grow: 0;
+    flex-basis: auto;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto; 
+  }
+
+  .profile-card {
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+    .profile-container {
+      width: 100%;
+      max-width: 100vw;
+      overflow-x: hidden;
+      align-items: center;
+      justify-content: center;
+    }
+}
+
 
 
 .left-div {

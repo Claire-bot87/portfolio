@@ -5,3 +5,16 @@
     justify-content: center;
     align-items: center;
   }
+
+  @media (max-width:480px) {
+
+    .portfolio{
+      height: 80vh;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+
+    }
+  }
+  
+  

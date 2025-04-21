@@ -30,9 +30,6 @@ export default function BioContainer({ devs = devData}){
         < DevCard data={ devs }/>
         </div>
         <div className='right-div'>
-        {/* <div
-          className="profile-image"
-        /> */}
         < SkillsCard />
         </div>
         

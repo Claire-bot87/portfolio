@@ -21,39 +21,55 @@ export const Carousel = ({ data }) => {
     return (
         <div className='carousel'>
             < BsArrowLeftCircleFill className='arrow arrow-left' onClick={prevSlide} />
-            
+
             {data.map((item, idx) => (
-    
-    
-                 <div   
-                 key={idx}
-                 className={slide === idx ? 'div-wrapper' : 'div-wrapper div-hidden'}
-                 >
-                     <div className={slide === idx ? 'div-left' : 'div-left-hidden'}>
-                     <div className='carousel-title-text'>
-                        <h1>{item.title}</h1>
-                    </div>
-                       
+
+
+                <div
+                    key={idx}
+                    className={slide === idx ? 'div-wrapper' : 'div-wrapper div-hidden'}
+                >
+                    <div className={slide === idx ? 'div-left' : 'div-left-hidden'}>
+                        <div className='carousel-title-text'>
+                            <h1>{item.title}</h1>
+                        </div>
+
                         <p>{item.text}</p>
                         <div className='links-div'>
-                        <a href={item.project_link} target="_blank" rel="noopener noreferrer">
-                        <div className='deployed-site-link'></div>
-                        </a>
-                        <a href={item.readme_link} target="_blank" rel="noopener noreferrer">
-                <div className='github-link'></div>
-                </a>
-                </div>
-                        
+                            <a href={item.project_link} target="_blank" rel="noopener noreferrer">
+                                <div className='deployed-site-link'></div>
+                            </a>
+                            <a href={item.readme_link} target="_blank" rel="noopener noreferrer">
+                                <div className='github-link'></div>
+                            </a>
                         </div>
-                <div  className={slide === idx ? 'div-right' : 'div-right-hidden'}>
-                    <img src={item.src}
-                    alt={item.alt}
-                    className='slide' />
+
                     </div>
-                   
-                    </div> 
-           ) )}
-           
+
+                    {slide === idx && (
+                        <>
+                            <div className='title-for-mobile'>
+                                <h6>{item.title}</h6>
+                            </div>
+                            <div className='details-for-mobile'>
+                                <a href={item.project_link} target="_blank" rel="noopener noreferrer">
+                                    <div className='deployed-site-link'></div>
+                                </a>
+                                <a href={item.readme_link} target="_blank" rel="noopener noreferrer">
+                                    <div className='github-link'></div>
+                                </a>
+                            </div>
+                        </>
+                    )}
+                    <div className={slide === idx ? 'div-right' : 'div-right-hidden'}>
+                        <img src={item.src}
+                            alt={item.alt}
+                            className='slide' />
+                    </div>
+
+                </div>
+            ))}
+
             < BsArrowRightCircleFill className='arrow arrow-right' onClick={nextSlide} />
 
             <span className='indicators'>
