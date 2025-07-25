@@ -10,7 +10,9 @@ export default function AboutMeCard(){
     </p>
 <br />
     <p>
-My journey into development wasn't about leaving sales behind—it was about becoming a sharper, more credible partner to the technical buyers I work with. I’m passionate about startups, SaaS, and crafting compelling, customer-first solutions. Now, I'm focused on growing within high-performing sales teams, especially those selling innovative, API-first products.</div>
+My journey into development wasn't about leaving sales behind—it was about becoming a sharper, more credible partner to the technical buyers I work with. I’m passionate about startups, SaaS, and crafting compelling, customer-first solutions. Now, I'm focused on growing within high-performing sales teams, especially those selling innovative, API-first products.
+    </p>
+    </div>
 
             
 {/* <div className='about-me-div'> 
